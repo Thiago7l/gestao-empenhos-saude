@@ -38,22 +38,22 @@ winget install --id Git.Git -e --source winget
  
 Clone o repositório:
 
-Feche e abra novamente o Powerhell e execute o seguinte: 
+Feche e abra novamente o Powershell e execute o seguinte: 
 
 git clone https://github.com/Thiago7l/gestao-empenhos-saude.git
 
 Instale as dependências:
 
-Na pasta baixada, abra novamente Powerhell e execute o seguinte: 
+Na pasta baixada, abra novamente o Powershell e execute o seguinte: 
 
 winget install OpenJS.NodeJS.LTS
 
-Feche e abra novamente o Powerhell e execute o seguinte: 
+Feche e abra novamente o Powershell e execute o seguinte: 
 
 npm install
 
 Inicie o servidor de desenvolvimento:
 
-No Powerhell execute o seguinte: 
+No Powershell execute o seguinte: 
 
 npm start
