@@ -32,17 +32,20 @@ package.json: Lista de dependências e scripts do projeto.
  Como Executar o Projeto
 Clone o repositório:
 
-Bash
+Execute o Poweshel na pasta do projeto e digite o seguinte: 
 
 git clone https://github.com/Thiago7l/gestao-empenhos-saude.git
+
 Instale as dependências:
 
-Bash
+Execute o Poweshel na pasta do projeto e digite o seguinte: 
 
 npm install
+
 Inicie o servidor de desenvolvimento:
 
-Bash
+Execute o Poweshel na pasta do projeto e digite o seguinte: 
 
 npm start
+
 Acesse http://localhost:3000 no seu navegador.
