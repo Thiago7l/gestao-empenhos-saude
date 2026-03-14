@@ -29,24 +29,31 @@ Create React App: Estrutura base para o desenvolvimento do projeto.
 
 package.json: Lista de dependências e scripts do projeto.
 
- Como Executar o Projeto
+
+Como Executar o Projeto
+
+Caso ainda não possua o github instalado no seu computador, instale com o seguinte comando no powershell: 
+
+winget install --id Git.Git -e --source winget
  
 Clone o repositório:
 
-Execute o Poweshel na pasta do projeto e digite o seguinte: 
+Feche e abra novamente o Powerhell e execute o seguinte: 
 
 git clone https://github.com/Thiago7l/gestao-empenhos-saude.git
 
 Instale as dependências:
 
-Execute o Poweshel na pasta do projeto e digite o seguinte: 
+Na pasta baixada, abra novamente Powerhell e execute o seguinte: 
+
+winget install OpenJS.NodeJS.LTS
+
+Feche e abra novamente o Powerhell e execute o seguinte: 
 
 npm install
 
 Inicie o servidor de desenvolvimento:
 
-Execute o Poweshel na pasta do projeto e digite o seguinte: 
+No Powerhell execute o seguinte: 
 
 npm start
-
-Acesse http://localhost:3000 no seu navegador.
