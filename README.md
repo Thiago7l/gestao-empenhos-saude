@@ -30,6 +30,7 @@ Create React App: Estrutura base para o desenvolvimento do projeto.
 package.json: Lista de dependências e scripts do projeto.
 
  Como Executar o Projeto
+ 
 Clone o repositório:
 
 Execute o Poweshel na pasta do projeto e digite o seguinte: 
