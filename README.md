@@ -1,6 +1,3 @@
-Com base na estrutura do seu repositório gestao-empenhos-saude, preparei um modelo de README profissional e organizado em português. Ele destaca as funcionalidades de controle financeiro e a integração tecnológica que você utilizou.
-
-Gestão de Empenhos - Secretaria de Saúde
 Este é um sistema web desenvolvido para otimizar e modernizar o controle financeiro da Secretaria de Saúde. A aplicação foca na gestão eficiente de empenhos (reservas de verba) e na organização de notas fiscais vinculadas.
 
  Funcionalidades
@@ -14,7 +11,7 @@ Alertas de Criticidade: Indicadores visuais que destacam empenhos que precisam d
 
 Interface Responsiva: Desenvolvida para oferecer uma boa experiência em diferentes dispositivos.
 
-🛠️ Tecnologias Utilizadas
+ Tecnologias Utilizadas
 React.js: Biblioteca principal para a construção da interface.
 
 JavaScript (ES6+): Lógica de programação do sistema.
@@ -32,7 +29,7 @@ Create React App: Estrutura base para o desenvolvimento do projeto.
 
 package.json: Lista de dependências e scripts do projeto.
 
-🔧 Como Executar o Projeto
+ Como Executar o Projeto
 Clone o repositório:
 
 Bash
