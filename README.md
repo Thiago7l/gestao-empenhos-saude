@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Com base na estrutura do seu repositório gestao-empenhos-saude, preparei um modelo de README profissional e organizado em português. Ele destaca as funcionalidades de controle financeiro e a integração tecnológica que você utilizou.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Gestão de Empenhos - Secretaria de Saúde
+Este é um sistema web desenvolvido para otimizar e modernizar o controle financeiro da Secretaria de Saúde. A aplicação foca na gestão eficiente de empenhos (reservas de verba) e na organização de notas fiscais vinculadas.
 
-## Available Scripts
+ Funcionalidades
+Gerenciamento de Empenhos: Registro e acompanhamento detalhado de reservas de verba.
 
-In the project directory, you can run:
+Vinculação de Notas Fiscais: Organização de documentos fiscais atrelados a cada empenho.
 
-### `npm start`
+Cálculo Automático de Saldo: Monitoramento em tempo real do valor restante em cada reserva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Alertas de Criticidade: Indicadores visuais que destacam empenhos que precisam de atenção imediata.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Interface Responsiva: Desenvolvida para oferecer uma boa experiência em diferentes dispositivos.
 
-### `npm test`
+🛠️ Tecnologias Utilizadas
+React.js: Biblioteca principal para a construção da interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+JavaScript (ES6+): Lógica de programação do sistema.
 
-### `npm run build`
+CSS3: Estilização personalizada e layouts modernos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Firebase: Utilizado para autenticação e banco de dados em tempo real (NoSQL).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create React App: Estrutura base para o desenvolvimento do projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Estrutura do Projeto
+/src: Contém os componentes, contextos e lógica da aplicação.
 
-### `npm run eject`
+/public: Arquivos estáticos e o index HTML principal.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+package.json: Lista de dependências e scripts do projeto.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔧 Como Executar o Projeto
+Clone o repositório:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Bash
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git clone https://github.com/Thiago7l/gestao-empenhos-saude.git
+Instale as dependências:
 
-## Learn More
+Bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
+Inicie o servidor de desenvolvimento:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bash
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+Acesse http://localhost:3000 no seu navegador.
